@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F56805021BA835600025BEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56805011BA835600025BEAD /* AppDelegate.swift */; };
 		F56805041BA835600025BEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56805031BA835600025BEAD /* ViewController.swift */; };
 		F56805071BA835600025BEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56805051BA835600025BEAD /* Main.storyboard */; };
 		F56805091BA835600025BEAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56805081BA835600025BEAD /* Images.xcassets */; };
 		F568050C1BA835600025BEAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F568050A1BA835600025BEAD /* LaunchScreen.xib */; };
 		F56805181BA835600025BEAD /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56805171BA835600025BEAD /* CalculatorTests.swift */; };
+		F58522EA1BA8387E0071E176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58522E91BA8387E0071E176 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		F56804FC1BA835600025BEAD /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56805001BA835600025BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F56805011BA835600025BEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56805031BA835600025BEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F56805061BA835600025BEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F56805081BA835600025BEAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		F56805111BA835600025BEAD /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56805161BA835600025BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56805171BA835600025BEAD /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		F58522E91BA8387E0071E176 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +77,9 @@
 		F56804FE1BA835600025BEAD /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F56805011BA835600025BEAD /* AppDelegate.swift */,
 				F56805031BA835600025BEAD /* ViewController.swift */,
 				F56805051BA835600025BEAD /* Main.storyboard */,
+				F58522E91BA8387E0071E176 /* AppDelegate.swift */,
 				F56805081BA835600025BEAD /* Images.xcassets */,
 				F568050A1BA835600025BEAD /* LaunchScreen.xib */,
 				F56804FF1BA835600025BEAD /* Supporting Files */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58522EA1BA8387E0071E176 /* AppDelegate.swift in Sources */,
 				F56805041BA835600025BEAD /* ViewController.swift in Sources */,
-				F56805021BA835600025BEAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +411,7 @@
 				F568051D1BA835600025BEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F568051E1BA835600025BEAD /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				F56805201BA835600025BEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
