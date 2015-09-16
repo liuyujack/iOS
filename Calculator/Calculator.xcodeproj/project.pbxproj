@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5168C1B1BA9AE03005FA504 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5168C1A1BA9AE03005FA504 /* CalculatorBrain.swift */; };
 		F56805041BA835600025BEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56805031BA835600025BEAD /* ViewController.swift */; };
 		F56805071BA835600025BEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56805051BA835600025BEAD /* Main.storyboard */; };
 		F56805091BA835600025BEAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56805081BA835600025BEAD /* Images.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5168C1A1BA9AE03005FA504 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		F56804FC1BA835600025BEAD /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56805001BA835600025BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56805031BA835600025BEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				F56805031BA835600025BEAD /* ViewController.swift */,
 				F56805051BA835600025BEAD /* Main.storyboard */,
+				F5168C1A1BA9AE03005FA504 /* CalculatorBrain.swift */,
 				F58522E91BA8387E0071E176 /* AppDelegate.swift */,
 				F56805081BA835600025BEAD /* Images.xcassets */,
 				F568050A1BA835600025BEAD /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5168C1B1BA9AE03005FA504 /* CalculatorBrain.swift in Sources */,
 				F58522EA1BA8387E0071E176 /* AppDelegate.swift in Sources */,
 				F56805041BA835600025BEAD /* ViewController.swift in Sources */,
 			);
