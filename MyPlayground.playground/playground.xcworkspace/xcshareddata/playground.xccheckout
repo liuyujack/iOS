@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F60BA2F9-1C00-4EDA-B677-ECDFDF499190</string>
+	<string>FC777AEA-7ED3-4A29-B3F7-5D0F6BFBA5D8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Calculator</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CE0D7CAD67DA4DC4CCD50E50A67FA20E76EF3D61</key>
 		<string>https://github.com/liuyujack/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Calculator/Calculator.xcodeproj</string>
+	<string>MyPlayground.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CE0D7CAD67DA4DC4CCD50E50A67FA20E76EF3D61</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/liuyujack/iOS.git</string>
