@@ -13,16 +13,38 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     
     var userIsInMiddleOfTypingANumber = false
+    var userHasUsedPoint = false
     
     var brain = CalculatorBrain()
 
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
-        if userIsInMiddleOfTypingANumber {
-            display.text = display.text! + digit
+        if userIsInMiddleOfTypingANumber{
+            if digit == "."
+            {
+                if !userHasUsedPoint
+                {
+                    display.text = display.text! + digit
+                }
+                userHasUsedPoint = true
+            } else if digit != "π"{
+                display.text = display.text! + digit
+            }
         } else {
-            display.text = digit
-            userIsInMiddleOfTypingANumber = true
+            if digit == "."
+            {
+                display.text = "0\(digit)"
+                userHasUsedPoint = true
+                userIsInMiddleOfTypingANumber = true
+            } else if digit != "π"{
+                display.text = digit
+                userIsInMiddleOfTypingANumber = true
+            } else {
+                display.text = "π"
+                enter()
+                display.text = "π"
+            }
+            
         }
         
     }
@@ -58,6 +80,7 @@ class ViewController: UIViewController {
     
     @IBAction func enter() {
         userIsInMiddleOfTypingANumber = false
+        userHasUsedPoint = false
         if let result = brain.pushOperand(displayValue) {
             displayValue = result
         } else {
@@ -68,6 +91,9 @@ class ViewController: UIViewController {
     
     var displayValue: Double {
         get {
+            if display.text! == "π" {
+                return M_PI
+            }
             return NSNumberFormatter().numberFromString(display.text!)!.doubleValue;
         }
         set {

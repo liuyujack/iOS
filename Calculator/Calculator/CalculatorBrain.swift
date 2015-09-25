@@ -44,6 +44,8 @@ class CalculatorBrain
         learnOp(Op.BinaryOperation("+", +))
         learnOp(Op.BinaryOperation("−"){$1 - $0})
         learnOp(Op.UnaryOperation("√",sqrt))
+        learnOp(Op.UnaryOperation("sin",sin))
+        learnOp(Op.UnaryOperation("cos",cos))
     }
     
     typealias PropertyList = AnyObject
