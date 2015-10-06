@@ -7,21 +7,23 @@
 //
 
 import UIKit
+@IBDesignable
 
 class FaceView: UIView {
     
+    @IBInspectable
     var lineWidth: CGFloat = 3 {
         didSet {
             setNeedsDisplay()
         }
     }
-    
+    @IBInspectable
     var colour: UIColor = UIColor.blackColor() {
         didSet {
             setNeedsDisplay()
         }
     }
-    
+    @IBInspectable
     var scale: CGFloat = 0.9{
         didSet {
             setNeedsDisplay()
